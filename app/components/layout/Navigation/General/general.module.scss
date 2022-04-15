@@ -1,0 +1,15 @@
+.general{
+    color: #d9dae8;
+    &__iconContainer{
+        color: #999AA5;
+        padding-top: 20px;
+        display: flex;
+        cursor: pointer;
+        &:hover{
+            color: white; 
+        }
+        .general__headerIcon{
+            padding-left: 10px;
+        }
+    }
+}

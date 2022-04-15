@@ -1,8 +1,8 @@
 import type { NextPage } from "next";
-import styles from "../styles/Home.module.scss";
+import HomePage from "../app/components/screens/home/HomePage";
 
 const Home: NextPage = () => {
-  return <div className={styles.container}></div>;
+  return <HomePage />;
 };
 
 export default Home;

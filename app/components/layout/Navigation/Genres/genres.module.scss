@@ -1,0 +1,33 @@
+.genres{
+    color: #d9dae8;
+    padding-bottom: 50px;
+    &__iconContainer{
+        color: #999AA5;
+        padding-top: 20px;
+        display: flex;
+        cursor: pointer;
+        .genres__headerIcon{
+            padding-left: 10px;
+        }
+        &:hover{
+            color: white; 
+        }
+    }
+    .active{
+        color: white;
+        .genres__icon{
+            color: #5bd2fb;
+        }
+        .genres__headerIcon{
+            width: 100%;
+        }
+        &::after{
+            content: "";
+            width: 4px;
+            height: 30px;
+            background-color: #5bd2fb;
+            border-radius: 5px;
+            
+        }
+    }
+}
