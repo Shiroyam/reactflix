@@ -1,0 +1,18 @@
+.slider {
+    padding-top: 20px;
+  &__skeleton {
+    border-radius: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    .slider__arrow {
+      visibility: visible !important;
+      cursor: pointer;
+      color: #9f9faa;
+      width: 40px;
+      height: 40px;
+      padding-right: 10px ;
+      padding-bottom: 10px ;
+    }
+  }
+}
