@@ -1,0 +1,12 @@
+.sidebar {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__popular{
+        margin-top: 30px;
+    }
+    &__favourites{
+        margin-top: 30px;
+    }
+}
